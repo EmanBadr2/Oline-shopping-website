@@ -1,0 +1,32 @@
+.nav {
+  --bs-nav-link-color: #212529;
+ --bs-nav-link-hover-color: #adb5bd;
+}
+ ul#myTab.nav.nav-tabs{
+  display: flex;
+  justify-content: center;
+}
+.nav-tabs{
+  --bs-nav-tabs-link-active-color: #dc3545;
+  --bs-nav-tabs-border-color: transparent;
+}
+.nav-tabs .nav-link{
+  border: none;
+}
+
+.catag-container{
+  border-radius:  50rem;
+}
+
+
+
+/*  */
+@media screen and (max-width: 580px) {
+  .catag-container{
+    
+      border-radius:  2rem;
+      
+  }
+
+
+} 

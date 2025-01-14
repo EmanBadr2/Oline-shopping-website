@@ -1,0 +1,14 @@
+<div class="owr-container w-100 container shadow-lg pt-4 m-auto">
+    <p class="h5 fw-light text-white text-center"> Trending Products </p>
+
+<owl-carousel-o [options]="customOptions">
+  <ng-template carouselSlide  *ngFor="let product of productList">
+     <figure class="figure shadow ">
+    <img [src]="product.image"  class="img-fluid rounded" style="width: 100px; height:100px ;">
+  </figure>
+</ng-template> 
+</owl-carousel-o>
+
+</div>
+
+

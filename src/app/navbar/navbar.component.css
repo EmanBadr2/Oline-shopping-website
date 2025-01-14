@@ -1,0 +1,33 @@
+
+.nav-container{
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 8888;
+    border: #00000088;
+    border-radius:  50rem;
+}
+li.nav-item a.nav-link ,.navbar-brand , li i {
+    color: #fff;
+}
+
+.nav-link{
+    background-color: transparent;
+}
+
+.nav-i-style i{
+    font-size: 22px;
+}
+li.nav-item:hover a.nav-link i ,li.nav-item:hover a.nav-link span{
+    color: #ffffff55;
+}
+
+/*  */
+@media screen and (max-width: 580px) {
+    .nav-container{
+        top: 5%;
+        border-radius:  2rem;
+    }
+  
+
+} 
